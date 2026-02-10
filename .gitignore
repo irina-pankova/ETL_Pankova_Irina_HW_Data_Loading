@@ -1,0 +1,15 @@
+# Airflow runtime
+airflow/logs/
+airflow/plugins/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Postgres / Docker
+postgres-data/
+
+# macOS мусор
+.DS_Store
+._*
+
+# временные файлы
+*.log
